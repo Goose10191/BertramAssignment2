@@ -1,0 +1,63 @@
+body {
+    background-color: #333; 
+    color: #FFFFF0; 
+    font-family: 'Gothic', sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px;
+    text-align: justify; 
+}
+
+h1 {
+    font-family: 'Gothic', sans-serif; 
+    font-size: 36px; 
+    background-image: linear-gradient(90deg, #00a3e0, #00ff00); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 3s linear infinite alternate;
+}
+
+h2 {
+    font-family: 'Gothic', sans-serif; 
+}
+
+p {
+    margin-bottom: 20px; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 5px 0;
+}
+
+ul a {
+    color: #00a3e0; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    display: block;
+}
+
+ul a:hover {
+    color: #00ff00; 
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}

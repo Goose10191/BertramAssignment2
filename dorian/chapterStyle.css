@@ -1,0 +1,54 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Elegant Script', cursive;
+    font-size: 14pt;
+    background-color: #333; 
+    color: #FFF; 
+    margin: 0;
+    padding: 0;
+    text-align: left; 
+}
+
+h1, h2 {
+    font-size: 2rem;
+	text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    background: linear-gradient(45deg, #555, #FFF); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+ul {
+	text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul a {
+    color: #FFF; 
+	text-align: center;
+    text-decoration: none;
+    border: 1px solid #DAA520; 
+    padding: 5px 10px; 
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+ul a:hover {
+    color: #DAA520; 
+    border-color: #FFF; 
+}

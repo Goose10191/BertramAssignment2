@@ -1,0 +1,49 @@
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #111; 
+    color: #EEE; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+    background: linear-gradient(45deg, #555, #FFF); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    columns: 2; 
+    column-gap: 20px; 
+}
+
+ul li {
+    margin: 10px 0; 
+    font-size: 1.2rem;
+}
+
+ul a {
+    color: #B8860B; 
+    text-decoration: none;
+    border: 1px solid #333; 
+    padding: 5px 10px; 
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+ul a:hover {
+    color: #333; 
+    border-color: #333; 
+}

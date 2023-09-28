@@ -1,0 +1,81 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Frankenstein', sans-serif; 
+    background-color: #222; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@keyframes lightning {
+    0% {
+        text-shadow: none;
+        opacity: 1;
+    }
+    50% {
+        text-shadow: 0 0 20px #00a3e0; 
+        opacity: 0.8;
+    }
+    100% {
+        text-shadow: none;
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #00FF00; 
+    animation: lightning 2s ease-in-out infinite; 
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-style: italic;
+    color: #00a3e0; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul a {
+    color: #00a3e0; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+ul a:hover {
+    color: #00FF00; 
+}
+
+
+ul a[href*="frankenstein_contents.html"] {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #ff3d00; 
+}

@@ -1,0 +1,81 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cinzel Decorative', serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: left; 
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ff0000; 
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.7); 
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-style: italic;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 5px 0; 
+}
+
+ul a {
+    color: #ff0000; /* Blood red links */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    display: block; /* Display each link as a block element */
+}
+
+ul a:hover {
+    color: #990000; 
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-image: linear-gradient(90deg, #ccc, #ff0000);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    100% {
+        background-image: linear-gradient(90deg, #ff0000, #ccc);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+h1 {
+    animation: gradientAnimation 3s linear infinite alternate;
+}
+
+ul.chapter-list {
+    columns: 2;
+}

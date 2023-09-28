@@ -1,0 +1,71 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gothic Cursive', cursive; 
+    background-color: #111; 
+    color: #EEE; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #EEE; 
+    background: linear-gradient(45deg, #000, #FFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #EEE; 
+    background: linear-gradient(45deg, #000, #FFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul a {
+    color: #EEE; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+ul a:hover {
+    color: #777; 
+}
+
+.center-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-image img {
+    display: block;
+    margin: 0 auto;
+}
